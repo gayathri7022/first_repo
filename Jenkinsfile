@@ -34,7 +34,7 @@ pipeline {
                 echo "Deploying Feature"
                 bat '''
                 call .\\venv\\Scripts\\activate
-                pyhton add.py
+                "C:\\Users\\mjmnj\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" add.py
                 '''
             }
         }
